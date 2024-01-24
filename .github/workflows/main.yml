@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-    tflint:
+  tflint:
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout
